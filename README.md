@@ -1,4 +1,4 @@
-The printf project by Olayode yusuf & Adeyinka Bello
+The printf project by Olayode yusuf & Jesse Esau
 School ALX
 
 #include <stdio.h>
@@ -12,5 +12,5 @@ int main(void)
 {
 	printf("Hello printf!!!\n");
 	return(0);
-	// by olayode & bello
+	// by olayode & Jesse
 }
