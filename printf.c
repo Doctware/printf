@@ -36,17 +36,6 @@ int _printf(const char *format, ...)
 					count++;
 				}
 			}
-			else if (c == '%')
-			{
-				_putchar('%');
-				count++;
-			}
-			else
-			{
-				_putchar('%');
-				_putchar(c);
-				count += 2;
-			}
 		}
 		else
 		{
@@ -58,3 +47,5 @@ int _printf(const char *format, ...)
 	va_end(args);
 	return (count);
 }
+
+/**/
